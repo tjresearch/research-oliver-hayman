@@ -5,9 +5,7 @@ research-oliver-hayman created by GitHub Classroom
 irregular objects that can be rotated freely by creating simplified representations of rotations of 
 each object and selectively packing these representations at each step in the algorithm
 3. Requirements: None
-4. Installation Instructions: For any images representing objects to be packed, add pictures of objects against white backgrounds. 
-Name images "1.png", "2.png", etc., in order for them to be packed. 
-5. Run instructions: Edit "widths.txt" so that it is a tab-separated file with two columns, one of image numbers (with 0 corresponding to container) and one of corresponding widths
-Execute the file Main.py. Outputted file of packing is called "final.png". (current version of code does not have text file, 
-edit "widths" array in Main.py to specify different widths).
+4. Installation Instructions: Add any images of objects you want to be packed and an image for the container you want them to be packed in to the folder with Main.py. Images should contain the object against a white background, and objects will only be packed in white areas of the container image. For the current version of code, it is best to use small images to decrease run time.
+5. Run instructions: 
+Execute the file Main.py. Fill in prompts asking for the number of objects to be packed, names of object files, and the widths of objects as they appear in their image. Outputted file of packing is called "final.png". 
 
